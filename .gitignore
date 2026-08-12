@@ -1,0 +1,19 @@
+# Private SQLite database
+ict_with_harsha.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Private configuration
+.env
+.env.*
+
+# Backups
+backups/
+
+# VS Code settings
+.vscode/
