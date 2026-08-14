@@ -15,5 +15,8 @@ __pycache__/
 # Backups
 backups/
 
+# User-uploaded profile photos (stored on the running server)
+assets/profile-photos/
+
 # VS Code settings
 .vscode/
