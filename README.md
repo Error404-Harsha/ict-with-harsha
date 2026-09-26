@@ -2,6 +2,31 @@
 
 Full-stack learning portal for O/L and A/L ICT students.
 
+## Project structure
+
+```text
+ict-with-harsha/
+├── server.py                 # Stable application entry point
+├── backend/
+│   └── app.py                # API, authentication and database logic
+├── pages/
+│   ├── public/               # Public class website
+│   ├── student/              # Student login and learning portal
+│   └── admin/                # Private administrator portal
+├── assets/
+│   ├── css/                  # Shared page and portal styles
+│   ├── js/                   # Browser-side application logic
+│   ├── images/               # Teacher and website images
+│   ├── resources/            # Student learning documents
+│   └── research/             # Research documents
+├── docs/                     # Deployment and email setup guides
+└── requirements.txt          # Python package requirements
+```
+
+The public URLs remain unchanged for backward compatibility. For example,
+`/student.html` and `/admin.html` are internally served from their organized
+folders by `backend/app.py`.
+
 ## Run locally
 
 ```powershell
@@ -24,4 +49,4 @@ Open `http://127.0.0.1:5500/`.
 - Six-digit email verification for registration and forgotten-password resets
 - Expiring, hashed verification codes with attempt limits
 
-See `EMAIL_SETUP.md` before production deployment.
+See `docs/EMAIL_SETUP.md` before production deployment.
