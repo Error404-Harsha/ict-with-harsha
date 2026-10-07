@@ -1,0 +1,8 @@
+{
+  "name": "ict-with-harsha",
+  "compatibility_date": "2026-10-07",
+  "assets": {
+    "directory": ".",
+    "html_handling": "none"
+  }
+}
